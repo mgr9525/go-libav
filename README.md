@@ -79,3 +79,11 @@ www.opensource.org/licenses/MIT
 Copyright (c) 2015 Mario Freitas. See
 [LICENSE](http://github.com/mgr9525/go-libav/blob/master/LICENSE)
 for further details.
+
+
+# libav_test
+need env:
+```
+CGO_CFLAGS=-I{ffmpegPath}/include;
+CGO_LDFLAGS=-L{ffmpegPath}/bin -lavcodec-57 -lavdevice-57 -lavfilter-6 -lavformat-57 -lavutil-55 -lpostproc-54 -lswresample-2 -lswscale-4
+```
