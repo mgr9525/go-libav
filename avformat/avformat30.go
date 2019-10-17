@@ -6,8 +6,6 @@ package avformat
 //#include <libavutil/avstring.h>
 //#include <libavcodec/avcodec.h>
 //#include <libavformat/avformat.h>
-//
-// #cgo pkg-config: libavformat libavutil
 import "C"
 
 import (

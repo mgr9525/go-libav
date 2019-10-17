@@ -4,8 +4,6 @@ package avcodec
 
 //#include <libavutil/avutil.h>
 //#include <libavcodec/avcodec.h>
-//
-// #cgo pkg-config: libavcodec libavutil
 import "C"
 
 import (

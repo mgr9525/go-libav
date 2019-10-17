@@ -94,7 +94,6 @@ func writeGo() {
 	}
 
 	str = `//
-// #cgo pkg-config: libavutil
 import "C"
 `
 	printGo(str)

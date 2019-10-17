@@ -35,8 +35,6 @@ package avformat
 //
 //typedef int (*AVFormatContextIOOpenCallback)(struct AVFormatContext *s, AVIOContext **pb, const char *url, int flags, AVDictionary **options);
 //typedef void (*AVFormatContextIOCloseCallback)(struct AVFormatContext *s, AVIOContext *pb);
-//
-// #cgo pkg-config: libavformat libavutil
 import "C"
 
 import (

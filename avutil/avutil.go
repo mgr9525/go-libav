@@ -53,8 +53,6 @@ package avutil
 //{
 //  return AVERROR(e);
 //}
-//
-// #cgo pkg-config: libavutil
 import "C"
 
 import (
